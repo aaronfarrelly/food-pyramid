@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aaron Farrelly - No. 2144266</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./food-pyramid.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+   
+</head>
+
+<body>
+    
+        <form>
+            <input type="date" id="dateInput">
+        </form>
+    
+        <!-- top of pyramid -->
+        <div id="triangle" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(0)">-</div>
+                <div class="counter" id="counter0">0</div>
+                <div class="button" onclick="incrementCounter(0)">+</div>
+            </div>
+        </div>
+        
+        <!-- Shelves of the pyramid -->
+        <div id="shelf1" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(1)">-</div> <!-- Button to decrement counter 1 -->
+                <div class="counter" id="counter1">0</div> <!-- Counter display for counter 1 -->
+                <div class="button" onclick="incrementCounter(1)">+</div> <!-- Button to increment counter 1 -->
+            </div>
+        </div>
+        
+        <div id="shelf2" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(2)">-</div>
+                <div class="counter" id="counter2">0</div>
+                <div class="button" onclick="incrementCounter(2)">+</div>
+            </div>
+        </div>
+        
+        <div id="shelf3" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(3)">-</div>
+                <div class="counter" id="counter3">0</div>
+                <div class="button" onclick="incrementCounter(3)">+</div>
+            </div>
+        </div>
+        
+        <div id="shelf4" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(4)">-</div>
+                <div class="counter" id="counter4">0</div>
+                <div class="button" onclick="incrementCounter(4)">+</div>
+            </div>
+        </div>
+        
+        <div id="shelf5" class="shelf">
+            <div class="button-container">
+                <div class="button" onclick="decrementCounter(5)">-</div>
+                <div class="counter" id="counter5">0</div>
+                <div class="button" onclick="incrementCounter(5)">+</div>
+            </div>
+        </div>
+
+    
+</body>
+</html>
